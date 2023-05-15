@@ -48,6 +48,23 @@ hr {
   margin: 0 10px;
 }
 
+.profile span {
+  background: #ff8b00;
+  border-radius: 100%;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  top: -21px;
+  left: 44px;
+}
+
 .login-btn {
   padding: 12px 50px;
   background: #396c03;
@@ -81,16 +98,83 @@ hr {
   padding: 0 3px;
 }
 
+body {
+  background-image: url("images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png");
+  background-repeat: no-repeat;
+  background-position: 0px 30px;
+
+  /* background-image: url("images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: 100px 30px; */
+}
+
 main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 250px;
+  margin-top: 190px;
+
+  /* margin: 0 100px; */
+  padding: 0 80px;
+}
+
+.left-section {
+  /* display: flex;
+  flex-direction: column;
+  gap: 120px; */
+  /* margin: 0 100px; */
+  /* padding: 0 100px; */
+}
+
+.right-section {
+  background-image: url("images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png");
+  background-repeat: no-repeat;
+  background-position: 380px -100px;
+}
+
+.sticker {
+  position: absolute;
+  top: 230px;
+  left: 1000px;
+  background: #ede6e6;
+  border-radius: 8px;
+  padding: 10px 40px;
+  /* opacity: 0.9; */
+}
+
+.sticker h2 {
+  color: #ff8b00;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.sticker h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 130%;
+  /* or 27px */
+
+  text-align: center;
+
+  color: #838383;
+}
+
+.sticker img {
+  /* margin-top: 20px; */
+  position: relative;
+  top: 5px;
 }
 
 .tagline {
-  display: flex;
-  flex-direction: column;
+  /* position: relative; */
+  /* top: 18px; */
+  /* left: 100px; */
+  /* display: flex;
+  flex-direction: column; */
   /* justify-content: space-between;
   align-items: center; */
   /* margin: 50px 0; */
