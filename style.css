@@ -9,12 +9,12 @@
 #header {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 25px 0;
 }
 
 .menu {
-  margin-left: 250px;
+  /* margin-left: 30px; */
 }
 
 .logo {
@@ -41,7 +41,9 @@ hr {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  margin: 0 30px;
+  /* margin: 0 30px; */
+  padding: 0 40px;
+  cursor: pointer;
 }
 
 .profile button {
@@ -102,10 +104,6 @@ body {
   background-image: url("images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png");
   background-repeat: no-repeat;
   background-position: 0px 30px;
-
-  /* background-image: url("images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png"); */
-  /* background-repeat: no-repeat; */
-  /* background-position: 100px 30px; */
 }
 
 main {
@@ -115,7 +113,7 @@ main {
   margin-top: 190px;
 
   /* margin: 0 100px; */
-  padding: 0 80px;
+  /* padding: 0 80px; */
 }
 
 .left-section {
@@ -134,8 +132,8 @@ main {
 
 .sticker {
   position: absolute;
-  top: 230px;
-  left: 1000px;
+  top: 240px;
+  left: 950px;
   background: #ede6e6;
   border-radius: 8px;
   padding: 10px 40px;
@@ -186,7 +184,7 @@ main {
   font-family: "Merienda";
   font-style: normal;
   font-weight: 700;
-  font-size: 65px;
+  font-size: 60px;
   line-height: 130%;
   margin-bottom: 30px;
 }
@@ -218,8 +216,8 @@ main {
   position: relative;
   width: 49px;
   height: 49px;
-  left: -710px;
-  top: 20px;
+  left: 10px;
+  top: -60px;
   background: #ff8b00;
   border: none;
   border-radius: 100%;
@@ -231,12 +229,24 @@ main {
   /* position: absolute; */
   width: 210.56px;
   height: 68.19px;
-  left: 520px;
-  top: -70px;
+  left: 449px;
+  top: -75px;
   background: #396c03;
   border: none;
   border-radius: 100px;
   color: #ffffff;
+  font-size: 22px;
+}
+
+.explore-btn {
+  padding: 15px 70px;
+  background: #396c03;
+  border: none;
+  border-radius: 100px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
   font-size: 22px;
 }
 
@@ -251,4 +261,8 @@ input::placeholder {
   height: 37px;
   left: 70px;
   top: 25%;
+}
+
+.delivery-img {
+  background-image: url("images/image\ 2.png");
 }
