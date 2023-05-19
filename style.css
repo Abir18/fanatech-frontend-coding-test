@@ -11,6 +11,8 @@
   align-items: center;
   justify-content: space-around;
   padding: 25px 0;
+
+  background: #faf4f4;
 }
 
 .menu {
@@ -34,6 +36,8 @@
 hr {
   /* margin-top: 20px; */
   color: #3f3f3f;
+  margin: 0 !important;
+  background-color: #faf4f4;
 }
 
 .menu span {
@@ -101,16 +105,23 @@ hr {
 }
 
 body {
-  background-image: url("images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png");
+  /* background-image: url("images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png");
   background-repeat: no-repeat;
-  background-position: 0px 30px;
+  background-position: 0px 30px; */
 }
 
 main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 190px;
+  padding-top: 190px;
+  /* margin-top: 190px; */
+
+  background: #faf4f4;
+
+  background-image: url("images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png");
+  background-repeat: no-repeat;
+  background-position: 0px -80px;
 
   /* margin: 0 100px; */
   /* padding: 0 80px; */
@@ -265,4 +276,17 @@ input::placeholder {
 
 .delivery-img {
   background-image: url("images/image\ 2.png");
+}
+
+#bike-man {
+  animation: bike 2s linear infinite;
+}
+
+@keyframes bike {
+  from {
+    transform: translateX(0deg);
+  }
+  to {
+    transform: translateX(120deg);
+  }
 }
